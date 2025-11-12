@@ -6,6 +6,17 @@ a {
     width:100%;
     text-align:center;
 }
+
+.stripe.blue{
+text-align:center;
+padding-top:40px;
+padding-bottom:0px;
+}
+img {
+    width:300px;
+    margin:auto;
+}
+
 .flag {
     width:900px;
     height:600px;
