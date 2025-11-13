@@ -10,12 +10,11 @@ a {
 .stripe.blue {
 	  box-sizing: border-box;
 	  padding-top:35px;
+	  text-align:center;
 }
 
 .stripe.blue img{
-    width:300px;
-    margin:auto;
-	display:block;
+    width:300px; 
 }
 
 .flag {
