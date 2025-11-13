@@ -12,33 +12,32 @@ body {
     width:100%;
 }
 
+.flag {
+    margin:auto;
+    width:800px;
+    height:600px;
+}
+
 .stripe {
     width:800px;
-    height:200px;
+    height:150px;
+}
+
+.stripe.red {
+height:300px;
+padding: 25px 0px;
 }
 
 .blue {
-    background:#032EA1;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    background:#032EA1;;
 }
 
 .red {
     background:#E00025;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-.flag {
-    margin:auto;
-    width:800px;
-    length:600px;
 }
 
 img {
-    width:600px;
+    height:250px;
     margin:auto;
     display:block;
-    align-items:center;
 }
