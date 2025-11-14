@@ -14,16 +14,12 @@ margin:auto;
 float:left;
 }
 
-.blue{
-background-color: #0044B0;
-}
-
-.yellow{
-background-color:#FFD300;
-}
-
 .red{
-background-color: #CD022B;
+background-color: #D62718;
+}
+
+.white{
+background-color:#FFFFFF;
 }
 
 .flag{
@@ -42,7 +38,13 @@ img {
     display:block;
 }
 
-.stripe.yellow {
+.stripe.white {
     box-sizing:border-box;
     padding-top:100px;
+    width:400px;
+    height:450px;
+}
+
+.stripe.red {
+    width:250px;
 }
