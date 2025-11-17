@@ -1,35 +1,31 @@
-.header {
-    text-align:center;
+.green {
+	background: #007a5e;
+}
+.red {
+background: #ce1126;
+}
+.yellow {
+background:#fcd116;
 }
 
-a {
-    display:block;
-    width:100%;
-    text-align:center;
-}
-
-.stripe {
-    width: calc(100% / 3);
-    height: 100%;
-    float: left;
-}
-
-.stripe.white{
-    text-align: center;
-    padding-top: 110px;
-}
-.mayablue {
-    background:#4997D0;
-}
-
-.white {
-    background:#FFFFFF;
-}
-
+/* cameroon: proportion 2:3 */
 .flag {
-    margin: auto;
-    width: 500px;  
-    height: 300px;  
-    border: 1px solid;
-    overflow: hidden;
+  height: 400px; /* 200 * 2 = 400 */
+  width: 600px; /* 200 * 3 = 400 */
 }
+
+/* reverse the stripe dimensions */
+.stripe {
+  height: 100%; 
+  width: 200px; /* 200 * 3 = 600 */
+  float:left;
+}
+
+.stripe.red p {
+  font-size: 100px;
+  line-height: 100px;
+  margin-top: 150px;
+  text-align: center;
+  color: #fcd116;
+}
+
